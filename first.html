@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+   <div class="add-task">
+    <h1 id="heading">::ToDo List::</h1>
+    <input type="text" id="new-task">
+    <button class="btn-addTask">+</button>
+   </div>
+    <h1>Tasks</h1>
+   <button class="removeBtn">Clear Complete</button> 
+   <div>
+    <ul class="complete-list">
+
+    </ul>
+   </div>
+   <template class="task-template">
+     <li class="task">
+       <input type="checkbox">
+       <label>
+        <span class="check-mark">&#10004;</span>
+        <span class="custom-checkox"></span>
+       </label>
+     </li>
+   </template>
+   </div>
+   <script src="script.js">
+
+   </script>
+</body>
+</html>
